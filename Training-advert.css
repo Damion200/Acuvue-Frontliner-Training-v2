@@ -1,0 +1,192 @@
+body{
+    position: absolute;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    margin: 0;   
+    height: 100vh;
+    z-index:-1;
+    top:0;
+    left:0;
+    width:100%;
+}
+
+#background-img {
+    position: absolute;
+    margin: 0;   
+    height: 660px;
+    z-index:-1;
+    top: 15vh;
+    left: 25%;
+    width: 660px;
+}
+
+#title{
+    font-size: 1.5vh;
+    color: rgb(175, 175, 175);
+    position: absolute;
+    left: 25vw;
+    top: 10vh;
+}
+
+#link-to-site {
+    font-size: 1.5vh;
+    color: rgb(175, 175, 175);
+    position: absolute;
+    right: 28.3vw;
+    top: 10vh;
+}
+
+#ACUVUE-logo {
+    position: absolute;
+    width: 11vw;
+    height: 9vh;
+    z-index: 5;
+    border-radius: 70%;
+    right: 29vw;
+    top: 9vw;
+}
+
+#moscon-logo{
+    position: absolute;
+    top: 103vh;
+    left: 27vw;
+    display: flex;
+    background-size: cover;
+    height: 19vh;
+    width: 14vw;
+  }
+
+#Annette {
+    position: absolute;
+    border-radius: 35% 65% 48% 0%;
+    transform: scaleX(-1);
+    left: 45.6vw;
+    top: 41.2vh;
+    width: 24.7vw;
+    height: 59vh;
+}
+
+#Frontliner {
+    font-family: 'Satisfy', Arial, Helvetica, sans-serif;
+    font-size: 8vh;
+    position: absolute;
+    top: 16vh;
+    left: 26vw;
+    margin: 0;
+    border: none;
+    color: rgb(42, 42, 124);
+    font-weight: lighter;
+}
+
+#Training {
+    font-family: 'Noto Serif', Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-size: 8vh;
+    top: 25vh;
+    left: 26vw;
+    margin: 0;
+    border: none;
+    color: rgb(34, 162, 212)
+}
+
+#hosting {
+    font-family: 'Noto Serif', Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-size: 3vh;
+    font-weight: 500;
+    font-style: bold;
+    color: rgb(42, 42, 124);
+    top: 27.2vh;
+    right: 37vw;
+
+}
+
+#list-header {
+    font-size: 4vh;
+    font-family: 'Noto Serif', Arial, Helvetica, sans-serif;
+    color:rgb(42, 42, 124);
+    margin: 0;
+    border: none;
+}
+
+.topics {
+    position: absolute;
+    top: 37vh;
+    left: 26vw;
+}
+
+li {
+    font-size: 2.4vh;
+    font-family: 'Noto Serif', Arial, Helvetica, sans-serif;
+    color: rgb(42, 42, 124); 
+}
+
+.details {
+    position: absolute;
+    left: 26vw;
+    color: rgb(42, 42, 124);
+    font-size: 3vh;
+    top: 63.8vh;
+}
+
+i {
+    margin-right: 1vw;;
+}
+
+
+button{
+    position: absolute;
+    height: 5vh;
+    width: 18vw;
+    bottom: 4vh;
+    left: 27vw;
+    border-radius: 50px;
+    font-size: 3vh;
+    border-width: 0.1px;
+    border-color: rgb(34, 162, 212);
+    color: #f5f5f5;
+    background-color: rgb(34, 162, 212);
+    box-shadow: 7px 5px 8px 6px rgb(49, 64, 194);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active{
+    position: absolute;
+    height: 4vh;
+    width: 18vw;
+    bottom: 3.8vh;
+    left: 28vw;
+    border-radius: 50px;
+    font-size: 4vh;
+    border-width: 0.1px;
+    border-color: #f5f5f5;
+    color: rgb(34, 162, 212);
+    background-color: #f5f5f5; 
+    box-shadow: none;   
+    transition-duration: 0.05s;
+}
+
+#copyright {
+    font-size: 1.5vh;
+    font-style: italic;
+    color: rgb(175, 175, 175);
+}
+
+#why-received{
+    font-size: 1.5vh;
+    color: grey;
+    width: 300px;
+}
+
+#legal {
+    position: absolute;
+    top: 106vh;
+    right: 34vw;
+}
+
